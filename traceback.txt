@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 2521, in script
+    jump clear_dungeon_halls
+ScriptError: could not find label 'clear_dungeon_halls'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 2521, in script
+    jump clear_dungeon_halls
+  File "C:\Users\Somnius\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 1698, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\Somnius\Downloads\renpy-8.2.1-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'clear_dungeon_halls'.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.2.1.24030407
+Eclipsed Memorie 1.0
+Wed Aug  7 01:59:26 2024
